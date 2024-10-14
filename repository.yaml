@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Jaime Assistant for work tasks
+url: 'https://github.com/guiman87/addon-jaime'
+maintainer: Guillermo Dutra <guiman.uy@gmail.com>

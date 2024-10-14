@@ -1,0 +1,23 @@
+name: "Go Zero"
+version: "1.0.4"
+init: false
+slug: "go-zero"
+description: "This add-on runs a Next.js app for voice control using wake words and integrates with Home Assistant."
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+map: []
+services: []
+ports:
+  3000/tcp: 3000
+options:
+  home_assistant_token: ""
+  home_assistant_url: "http://homeassistant.local:8123/api/conversation/process"
+  repository_url: "https://github.com/yourusername/your-nextjs-app.git"
+schema:
+  home_assistant_token: password
+  home_assistant_url: str
+  repository_url: str
